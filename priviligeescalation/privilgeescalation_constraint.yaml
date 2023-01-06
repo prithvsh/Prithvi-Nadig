@@ -1,9 +1,10 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: k8spspallowprivilegeescalationcontainer
+kind: K8sPSPAllowPrivilegeEscalationContainer
 metadata:
   name: priviligeescalation
 spec:
   match:
     kinds:
       - apiGroups: [""]
-        kinds: ["Pod"]
+        kinds: ["Pods"]
+       
