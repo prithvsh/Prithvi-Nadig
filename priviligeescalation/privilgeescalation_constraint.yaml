@@ -6,5 +6,5 @@ spec:
   match:
     kinds:
       - apiGroups: [""]
-        kinds: ["Pods"]
+        kinds: ["Pod"]
        
